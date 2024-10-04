@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  form {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 15px;
+    width: 100%;
+  }
+  
+  button {
+    background: yellow;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
